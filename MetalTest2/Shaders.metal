@@ -14,6 +14,7 @@
 
 using namespace metal;
 
+
 typedef struct {
     float2 position [[attribute(kVertexAttributePosition)]];
     float2 texCoord [[attribute(kVertexAttributeTexcoord)]];

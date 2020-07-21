@@ -22,6 +22,7 @@ class ViewController: UIViewController, MTKViewDelegate, ARSessionDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         // Set the view's delegate
         session = ARSession()
         session.delegate = self

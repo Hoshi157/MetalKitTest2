@@ -11,6 +11,7 @@ import Metal
 import MetalKit
 import ARKit
 
+
 protocol RenderDestinationProvider {
     var currentRenderPassDescriptor: MTLRenderPassDescriptor? { get }
     var currentDrawable: CAMetalDrawable? { get }
